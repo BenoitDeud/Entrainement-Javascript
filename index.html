@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark mode</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <p>Accueil</p>
+        <p>Réalisations</p>
+        <button id="btn"><span class="darkOn">🌙</span></button>
+    </header>
+
+    <main>
+        <!--SPEEDY-->
+        <div>
+            <img src="speedy1.png" alt="speeeeeeeedy" class="speeedy">
+        </div>
+
+        <!--Modal-->
+        <div id="outfit">
+            <img src="outfit.png" alt="dddd">
+            <button id="disp">Voir les détails</button>
+            
+                <div id="modal" class="modalFlex">
+                    <p>Outfit Vert</p>
+                    <p>1 000 000€</p>
+                    <select name="quantite" id="quantité">
+                        <option value="">sélectionnez la quantié</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select><br><br>
+                    <button id="ferme">Fermé</button>
+                </div>
+        </div><br><br>
+
+        <div>
+            <img src="like.png" alt="like" id="like">
+            <img src="dislike.png" alt="dislike" id="dislike">
+            <button id="btnLikeDislike">Laisse un like ou un dislike</button>
+        </div>
+
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

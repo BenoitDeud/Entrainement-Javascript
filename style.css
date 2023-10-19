@@ -1,0 +1,47 @@
+.dark {
+    background-color: rgb(0, 0, 0);
+    color: white;
+   }
+
+.speedy {
+    background: url(speedy.png);
+}
+
+#outfit{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: 10px;
+}
+.outfit1{
+    display: none;
+}
+.display{
+    display:none;
+}
+
+#disp {
+    background-color: rgb(169, 44, 65);
+    color: white;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    
+}
+
+.modalFlex{
+    background-color: rgb(41, 45, 45);
+    color: white;
+    text-align: center;
+    padding: 1%;
+    border: solid black 3px;
+    border-radius: 25px;
+    
+}
+
+#dislike{
+    display: none;
+}
+
+#like{
+    display: blok;
+}
